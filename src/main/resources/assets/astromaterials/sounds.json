@@ -1,0 +1,34 @@
+{
+  "sound.menu.click": {
+    "sounds": [
+      {
+        "name": "astromaterials:sound.menu.click",
+        "stream": false
+      }
+    ]
+  },
+  "sound.menu.hover": {
+    "sounds": [
+      {
+        "name": "astromaterials:sound.menu.hover",
+        "stream": false
+      }
+    ]
+  },
+  "sound.menu.close": {
+    "sounds": [
+      {
+        "name": "astromaterials:sound.menu.close",
+        "stream": false
+      }
+    ]
+  },
+  "sound.menu.open": {
+    "sounds": [
+      {
+        "name": "astromaterials:sound.menu.open",
+        "stream": false
+      }
+    ]
+  }
+}

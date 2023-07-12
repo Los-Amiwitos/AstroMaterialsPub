@@ -1,0 +1,201 @@
+{
+  "mod_elements": [
+    {
+      "name": "Resin",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astromaterials/models/item/resin.json",
+          "src/main/java/net/frijol/astromaterials/item/ResinItem.java"
+        ]
+      },
+      "path": "~/Materiales"
+    },
+    {
+      "name": "AstroMaterialsTab",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astro_materials_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Compound",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compound",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astromaterials/models/item/compound.json",
+          "src/main/java/net/frijol/astromaterials/item/CompoundItem.java"
+        ]
+      },
+      "path": "~/Materiales"
+    },
+    {
+      "name": "Resintooltip",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resintooltip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/frijol/astromaterials/procedures/ResintooltipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      },
+      "path": "~/Tooltips"
+    },
+    {
+      "name": "Compoundtooltip",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compoundtooltip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/frijol/astromaterials/procedures/CompoundtooltipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      },
+      "path": "~/Tooltips"
+    },
+    {
+      "name": "Test",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/frijol/astromaterials/procedures/TestProcedure.java"
+        ],
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "sound.menu.click",
+      "files": [
+        "sound.menu.click"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "sound.menu.hover",
+      "files": [
+        "sound.menu.hover"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "sound.menu.close",
+      "files": [
+        "sound.menu.close"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "sound.menu.open",
+      "files": [
+        "sound.menu.open"
+      ],
+      "category": "block",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.am.sound.menu.hover": "",
+      "item.astromaterials.resin": "§eResin",
+      "itemGroup.tabastro_materials_tab": "Astro Materials",
+      "subtitles.am.sound.menu.click": "",
+      "item_group.astromaterials.astro_materials_tab": "§dAstro Materials",
+      "subtitles.sound.menu.hover": "",
+      "subtitles.sound.menu.click": "",
+      "subtitles.sound.menu.close": "",
+      "item.astromaterials.compound": "Compound",
+      "subtitles.sound.menu.open": ""
+    },
+    "es_es": {
+      "subtitles.am.sound.menu.hover": "",
+      "item.astromaterials.resin": "§eResina",
+      "itemGroup.tabastro_materials_tab": "Astro Materials",
+      "subtitles.am.sound.menu.click": "",
+      "item_group.astromaterials.astro_materials_tab": "§dAstro Materials",
+      "subtitles.sound.menu.hover": "",
+      "subtitles.sound.menu.click": "",
+      "subtitles.sound.menu.close": "",
+      "item.astromaterials.compound": "§7Compuesto",
+      "subtitles.sound.menu.open": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Materiales",
+        "children": []
+      },
+      {
+        "name": "Tooltips",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "astromaterials",
+    "modName": "Astro Materials",
+    "version": "0.1",
+    "author": "JoseFrijolito",
+    "websiteURL": "https://legacy.curseforge.com/minecraft/mc-mods/astro-materials",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "am_logo_f",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using MCreator: https://mcreator.net/about",
+    "modElementsPackage": "net.frijol.astromaterials",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
